@@ -1,0 +1,18 @@
+- scm:
+    name: git-ui-autotests
+    scm:
+    - git:
+        url: https://github.com/romketa/OTUS_Project.git
+        credentials-id: jenkins
+        branches:
+        - FETCH_HEAD
+        refspec: ${BRANCH}
+- scm:
+    name: git-rest-autotests
+    scm:
+    - git:
+        url: https://github.com/romketa/OTUS_REST_API.git
+        credentials-id: jenkins
+        branches:
+        - FETCH_HEAD
+        refspec: ${BRANCH}
