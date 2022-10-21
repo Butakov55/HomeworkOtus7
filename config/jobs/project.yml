@@ -5,4 +5,3 @@
     job-description: 'UI autotests'
     jobs:
       - 'ui-autotests'
-      - 'rest-autotests'
